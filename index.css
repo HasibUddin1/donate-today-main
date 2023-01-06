@@ -52,5 +52,38 @@ justify-content: center;
     list-style: none;
     justify-content: center;
     padding-left: 10px;
-    gap: 10px;
+    gap: 50px;
+    font-size: 40px;
+    color: #555555;
+    text-align: center;
+    align-items: center;
+}
+.donation-header{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.donation-paragraph{
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+.amount-design{
+    color: #ff6c6c;
+    background-color: #ffd6d6;
+    padding: 10px 20px;
+    border: 1px solid #ff6c6c;
+    border-radius: 8px;
+}
+.other-amount{
+    padding: 20px;
+    border: none;
+    text-align: center;
+    border-bottom-width: thin;
+}
+.amount-border{
+    border: none;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: 20px;
+}
+.amount-border-top{
+    border: none;
 }
