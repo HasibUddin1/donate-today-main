@@ -64,7 +64,7 @@ justify-content: center;
 }
 .donation-paragraph{
     margin-bottom: 40px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .amount-design{
     color: #ff6c6c;
@@ -86,4 +86,38 @@ justify-content: center;
 }
 .amount-border-top{
     border: none;
+}
+/* our donate plan section design */
+.donate-plan{
+    margin-top: 50px;
+    text-align: center;
+}
+.section-header{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.section-header-description{
+    font-size: 20px;
+}
+.mother-div{
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.food{
+    background-color: #e2f8ff;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+.shelter{
+    background-color: #ffecef;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+.education{
+    background-color: #ffffd1;
+    padding: 50px 20px;
+    border-radius: 10px;
 }
