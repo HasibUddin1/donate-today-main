@@ -46,6 +46,7 @@ justify-content: center;
 .donate-today{
     text-align: center;
     padding-top: 20vh;
+    margin-bottom: 100px;
 }
 .amount-list{
     display: flex;
@@ -91,6 +92,8 @@ justify-content: center;
 .donate-plan{
     margin-top: 50px;
     text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 .section-header{
     margin-bottom: 20px;
@@ -101,10 +104,9 @@ justify-content: center;
 }
 .mother-div{
     display: flex;
-    margin-top: 50px;
     gap: 30px;
     justify-content: space-around;
-    margin-bottom: 50px;
+    margin: 50px 150px;
 }
 .food{
     background-color: #e2f8ff;
@@ -120,4 +122,57 @@ justify-content: center;
     background-color: #ffffd1;
     padding: 50px 20px;
     border-radius: 10px;
+}
+/* Lives depending section */
+.live-depend{
+    background-image: url('images/donation1.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    margin: 0 150px;
+    margin-bottom: 150px;
+}
+.live-depend-header{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.live-depend-header-description{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.live-depend-btn{
+    display: flex;
+    padding: 10px 20px;
+    background-color: #ff6c6c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.survive{
+    background-image: url('images/donation3.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    margin: 0 150px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+.survive-header{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.survive-header-description{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.survive-btn{
+    padding: 10px 20px;
+    background-color: #ff6c6c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
 }
